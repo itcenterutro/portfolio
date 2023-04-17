@@ -5,6 +5,83 @@
     list-style: none;
 }
 
+.flex {
+    display: flex;
+}
+
+.btn {
+    padding: 16px 38px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    background-color: #141313;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    gap: 8px;
+    margin-bottom: 64px;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #141313;
+    border: 2px solid #141313;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 102px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #141313;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.mb-24px {
+    margin-bottom: 24px;
+}
+
+
+.description {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #141313;
+    margin-bottom: 48px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-12px {
+    gap: 12px;
+}
+
+.link {
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #141313;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.gap-24px {
+    gap: 24px;
+}
+
 aside {
     min-width: 285px;
     max-width: 325px;
