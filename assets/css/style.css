@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 .flex {
@@ -79,4 +80,53 @@ h1 {
 
 .gap-24px {
     gap: 24px;
+}
+
+aside {
+    min-width: 285px;
+    max-width: 325px;
+    height: 100vh;
+    background-color: #141313;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 40px 24px;
+}
+
+.aside-header-logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    font-family: 'IBM Plex Serif';
+
+}
+.aside-header {
+    margin-bottom: 80px;
+}
+.aside-body-categories ul li a {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+}
+
+
+.aside-body-categories ul li a.active:before {
+    content: '';
+    height: 4px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(270.16deg, #FFB147 5.74%, #FF6C63 50.64%, #B86ADF 92.05%);
+    position: absolute;
 }
